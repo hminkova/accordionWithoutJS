@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en"> 
+    <head>
+        <!-- Meta -->
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+        <meta name="author" content="HristiyanaMinkova" /> 
+        <meta name="robots" content="index, follow" /> 
+        <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimal-ui" />
+        
+        <title>Accordion Without JS</title>
+
+        <!--Fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400" rel="stylesheet">
+
+        <!-- Styles -->
+        <link type="text/css" href="web/css/style.css" rel="stylesheet prefetch" />
+        
+        <!--[if lt IE 9]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->  
+    </head>
+
+	<body>
+        <main>
+            <section>
+                <div class="wrapper">
+                    <header>
+                         <h1>Accordion Without JS only with CSS3</h1> 
+                    </header>
+
+                    <ul class="accordion">
+                        <li>
+                            <input type="radio" id="option-1" name="accordion-option">
+                            <label for="option-1">Option 1</label>
+                            <div class="accordion__content">
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                                </p>
+                                <p>
+                                    It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <input type="radio" id="option-2" name="accordion-option">
+                            <label for="option-2">Option 2</label>
+                            <div class="accordion__content">
+                                <p>
+                                    It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <input type="radio" id="option-3" name="accordion-option">
+                            <label for="option-3">Option 3</label>
+                            <div class="accordion__content">
+                                <p>
+                                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
